@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <Navbar bjjLogo={bjj} />
       <div>
         <a href="https://www.instagram.com/fieldassembly/?hl=en" target="_blank">
           <img src={bjj} className="logo" alt="Field Assembly" />
@@ -23,15 +23,9 @@ function App() {
       <h1>BJJ</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          Tapped: {count}
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }

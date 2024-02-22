@@ -1,5 +1,4 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -37,6 +36,31 @@
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  background-color: pink;
+  padding: 30px 25px;
+  height: 30px;
+}
+
+nav > h3, nav > h4{
+  margin: 0;
+}
+
+nav > h3 {
+  margin-right:auto;
+  color: red;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+nav > img {
+  height: 40px;
+  margin-right: 10px;
 }
