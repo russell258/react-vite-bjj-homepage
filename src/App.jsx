@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import bjj from './assets/bjj.png'
 import robin6 from '/robin6.jpg'
+import Navbar from './components/Navbar'
+import Main from './components/Main'
 import './App.css'
 
 function App() {
@@ -8,14 +10,16 @@ function App() {
 
   return (
     <>
+      <Navbar />
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={bjj} className="logo" alt="Vite logo" />
+        <a href="https://www.instagram.com/fieldassembly/?hl=en" target="_blank">
+          <img src={bjj} className="logo" alt="Field Assembly" />
         </a>
-        <a href="https://react.dev" target="_blank">
+        <a href="https://www.fieldassembly.co/schedule" target="_blank">
           <img src={robin6} className="logo react" alt="React logo" />
         </a>
       </div>
+      <Main />
       <h1>BJJ</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
