@@ -20,7 +20,7 @@ function App() {
         </a>
       </div>
       <Main />
-      <h1>BJJ</h1>
+      <h1 className="oss">OSS</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           Tapped: {count}

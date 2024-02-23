@@ -46,6 +46,10 @@ body {
   background-position-y: center;
 }
 
+.oss {
+  color: white;
+}
+
 nav{
   display: flex;
   align-items: center;
